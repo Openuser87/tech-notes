@@ -29,9 +29,9 @@
 			- Save
 - get text of generated `.csr` file
 	- use either download button or edit (and copy text from there)
-# Sign Certificate with `step-ca`
+# Sign Certificate with smallstep CLI
 - log in to the smallstep docker container
-	- e.g. `docker exec -it step-ca /bin/bash`
+	- e.g. `docker exec -it <step-container-name> /bin/bash`
 	- alternatively, any machine with `step-cli` installed
 - create a file `truenas.csr` and paste the CSR there
 - sign CSR with the intermediate key
