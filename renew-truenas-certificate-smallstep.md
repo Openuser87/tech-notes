@@ -53,7 +53,7 @@
 		- 💡❗ **concatenate both**
 			- server cert from CA from previous step (pun intended 😉)
 			- intermediate cert
-				- in `/docker/step-ca/data/certs/intermediate_ca.crt`
+				- in `/home/step/certs/intermediate_ca.crt` (path inside container)
 		- ❗this is important, as otherwise the chain is broken and you get problems in browsers!
 		- chk: **CSR exists on this system** -> ON
 			- -> select the previously created CSR
