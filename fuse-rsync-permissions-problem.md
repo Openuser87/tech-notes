@@ -24,7 +24,7 @@ Alternatively, add custom flags on mounting (see e.g. [Cryptomator docs](https:/
 
 [Docs for `ansible.posix.synchronize`](https://docs.ansible.com/projects/ansible/latest/collections/ansible/posix/synchronize_module.html) say:
 
-> The user and permissions for the synchronize `src` are those of the user running the Ansible task on the local host (or the remote_user for a `delegate_to` host when `delegate_to is used).
+> The user and permissions for the synchronize `src` are those of the user running the Ansible task on the local host (or the remote_user for a `delegate_to` host when `delegate_to` is used).
 
 However, this seems not to work like that here: `rsync` with this module in Ansible works when setting `become` is false, and does not work otherwise (which it should according to the quote).
 
