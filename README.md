@@ -5,5 +5,5 @@ In the hope it will be useful, but without any warranty...
 
 # Index
 
-[Renew TrueNAS Certificate with smallstep](./renew-truenas-certificate-smallstep.md)
-[Fuse rsync permissions problem](./fuse-rsync-permissions-problem.md)
+- [Renew TrueNAS Certificate with smallstep](./renew-truenas-certificate-smallstep.md)
+- [Fuse rsync permissions problem](./fuse-rsync-permissions-problem.md)
