@@ -7,3 +7,4 @@ In the hope it will be useful, but without any warranty...
 
 - [Renew TrueNAS Certificate with smallstep](./renew-truenas-certificate-smallstep.md)
 - [Fuse rsync permissions problem](./fuse-rsync-permissions-problem.md)
+- [Logseq Auto-Push Setup (Flatpak)](./logseq-auto-push-setup-flatpak.md)
